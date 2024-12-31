@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:misfits_task/screens/profile_screen.dart';
 import 'package:misfits_task/screens/splash_screen.dart';
 import 'package:misfits_task/utils/text_theme.dart';
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(360, 690),
+      designSize: const Size(412, 917),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (_, child) {

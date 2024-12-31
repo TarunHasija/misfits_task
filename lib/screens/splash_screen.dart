@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:misfits_task/screens/profile_screen.dart';
+import 'package:misfits_task/utils/assets.dart';
 import 'package:misfits_task/utils/colors.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -26,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: AppColors.surfacePrimary,
       body: Center(
         child: Image.asset(
-            height: 50.h, 'assets/images/logo/splash_screen_logo.png'),
+            height: 70.h, Assets.splashScreenLogo),
       ),
     );
   }

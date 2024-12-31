@@ -10,7 +10,7 @@ class Assets {
   static const String calender  = "assets/icons/calendar.png"; 
   static const String cross  = "assets/icons/cross.png"; 
   static const String dice  = "assets/icons/dice.png"; 
-  static const String happy  = "assets/icons/Happy.jpg"; 
+  static const String happy  = "assets/icons/Happy.png"; 
   static const String pin  = "assets/icons/pin.png"; 
   static const String startstruck  = "assets/icons/Starstruck.png"; 
 
