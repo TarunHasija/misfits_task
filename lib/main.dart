@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:misfits_task/screens/profile_screen.dart';
+import 'package:misfits_task/screens/splash_screen.dart';
 import 'package:misfits_task/utils/text_theme.dart';
 
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const ProfileScreen(),
+      child: const SplashScreen(),
     );
   }
 }
