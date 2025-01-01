@@ -7,6 +7,8 @@ This project is a Flutter application developed as part of the Misfits internshi
 - Replicated UI design provided by Misfits using Flutter.
 - Implemented necessary features according to the assignment specifications.
 - Ensured responsiveness and optimal user experience across different devices.
+- Implemented **Flutter Screen Util** package for scaling and responsive design.
+- used **Flutter Native icon** for app icon 
 
 ## Screenshots/GIFs
 
