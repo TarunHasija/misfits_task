@@ -1,8 +1,7 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:misfits_task/components/activities.dart';
+import 'package:misfits_task/components/club_card.dart';
 import 'package:misfits_task/components/custom_appbar.dart';
 import 'package:misfits_task/components/value_card.dart';
 import 'package:misfits_task/utils/assets.dart';
@@ -28,8 +27,7 @@ class ProfileScreen extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 100.r,
-                backgroundImage:
-                    const AssetImage('assets/images/profile-pic.jpg'),
+                backgroundImage: const AssetImage(Assets.profilePic),
               ),
               SizedBox(
                 height: 24.h,
@@ -126,8 +124,24 @@ class ProfileScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Container(
-                    color: AppColors.surfaceLevel1,
+                  ClubCard(
+                    textTheme: textTheme,
+                    title: 'Poets without borders ',
+                    date: 'Jun 24',
+                    imgUrl: Assets.cardImage1,
+                    location: 'Sec 30, Gurugram',
+                    value: '12',
+                  ),
+                  ClubCard(
+                    textTheme: textTheme,
+                    title: 'All things pop culture ',
+                    date: 'Jun 24',
+                    imgUrl: Assets.cardImage2,
+                    location: 'Sec 30, Gurugram',
+                    value: '1',
+                  ),
+                  SizedBox(
+                    height: 24.h,
                   )
                 ],
               )

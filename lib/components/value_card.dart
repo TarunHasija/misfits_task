@@ -37,25 +37,28 @@ class ValueCard extends StatelessWidget {
               ),
             ),
             SizedBox(height: 8.h),
-            Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Container(
-                  margin: EdgeInsets.only(right: 8.w),
-                  height: 24.h,
-                  width: 24.h,
-                  decoration: BoxDecoration(
-                      image: DecorationImage(
-                    image: AssetImage(iconImgUrl),
-                  )),
-                ),
-                Text(
-                  value,
-                  style: !isSmallCard
-                      ? textTheme.headlineSmall
-                      : textTheme.titleMedium,
-                ),
-              ],
+            SizedBox(
+              height: isSmallCard ? 24.h : 32.h,
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(right: 8.w),
+                    height: 24.h,
+                    width: 24.h,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                      image: AssetImage(iconImgUrl),
+                    )),
+                  ),
+                  Text(
+                    value,
+                    style: !isSmallCard
+                        ? textTheme.headlineSmall
+                        : textTheme.titleMedium,
+                  ),
+                ],
+              ),
             )
           ],
         ),

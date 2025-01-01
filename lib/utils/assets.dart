@@ -5,6 +5,8 @@ class Assets {
   static const String veteran = "assets/images/veteran.jpg";
   static const String theOg  = "assets/images/theog.jpg"; 
   static const String innerCircle  = "assets/images/inner_circle.jpg"; 
+  static const String cardImage1  = "assets/images/card_image_1.png"; 
+  static const String cardImage2  = "assets/images/card_image_2.png"; 
 
   //icons
   static const String calender  = "assets/icons/calendar.png"; 
