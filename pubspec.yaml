@@ -37,7 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_screenutil: ^5.9.3
   flutter_launcher_icons: ^0.14.2
-  flutter_native_splash: ^2.4.4
+
 
 dev_dependencies:
   flutter_test:
@@ -58,13 +58,6 @@ flutter_launcher_icons:
   adaptive_icon_background: "#ffffff"
   adaptive_icon_foreground: "assets/images/logo/logo_foreground.png"
 
-
-flutter_native_splash:
-  android : true
-  ios : true
-
-  color: '#1E7ACC'
-  image: "assets/images/logo/splash_screen_logo.png"
   
   
 # For information on the generic Dart part of this file, see the
