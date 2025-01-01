@@ -1,16 +1,19 @@
-# misfits_task
+# Misfits Internship Assignment
 
-A new Flutter project.
+This project is a Flutter application developed as part of the Misfits internship assignment. The goal of the assignment is to replicate the user interface provided in Figma and implement the required functionalities.
 
-## Getting Started
+## Assignment Details
 
-This project is a starting point for a Flutter application.
+- Replicated UI design provided by Misfits using Flutter.
+- Implemented necessary features according to the assignment specifications.
+- Ensured responsiveness and optimal user experience across different devices.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots/GIFs
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| <img src="https://github.com/user-attachments/assets/0d4b930f-8c44-465a-8ace-ab5ae9213ba6" width="300" /> | <img src="https://github.com/user-attachments/assets/a1deb850-2075-44c3-bc54-b0a389d149a5" width="300" /> |
+|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Preview 1                                                                                                           | Preview 2                                                                                                          |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## APK Download
+
+You can download the latest APK from [here](https://drive.google.com/drive/folders/1e1G4VQNnA8pxzhomqhf1z-FKNZINo0CZ?usp=drive_link).
