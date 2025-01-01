@@ -16,4 +16,4 @@ This project is a Flutter application developed as part of the Misfits internshi
 
 ## APK Download
 
-You can download the latest APK from [here](https://drive.google.com/drive/folders/1e1G4VQNnA8pxzhomqhf1z-FKNZINo0CZ?usp=drive_link).
+You can download the latest APK from [apk link](https://drive.google.com/file/d/1ehbtEJhc6UEJSdy08BqOJW2tab5Pcarj/view?usp=drive_link)
