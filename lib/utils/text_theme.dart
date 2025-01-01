@@ -60,9 +60,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
   ),
   labelLarge: TextStyle(
     fontFamily: 'Lato',
-    fontWeight: FontWeight.w500,
-    fontSize: 24.sp,
-    height: 32 / 24,
+    fontWeight: FontWeight.w400,
+    fontSize: 14.sp,
+    height: 20 / 14,
     letterSpacing: 0.0,
   ),
   displayLarge: TextStyle(

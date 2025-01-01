@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class Activities extends StatelessWidget {
-  final String imgUrl;
+  final String badgeUrl;
   final String activityName;
   final VoidCallback onActivityTap;
   const Activities({
@@ -11,7 +11,7 @@ class Activities extends StatelessWidget {
     required this.textTheme,
     required this.activityName,
     required this.onActivityTap,
-    required this.imgUrl,
+    required this.badgeUrl,
   });
 
   final TextTheme textTheme;
@@ -19,9 +19,9 @@ class Activities extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(right: 8.w),
+      padding: EdgeInsets.only(right:8.w),
       child: GestureDetector(
-        onTap: () => onActivityTap,
+        onTap: onActivityTap,
         child: Column(
           children: [
             Container(
@@ -29,7 +29,7 @@ class Activities extends StatelessWidget {
               width: 56.h,
               margin: EdgeInsets.only(bottom: 4.h, left: 8.w, right: 8.w),
               decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(imgUrl))),
+                  image: DecorationImage(image: AssetImage(badgeUrl))),
             ),
             Text(
               activityName,
